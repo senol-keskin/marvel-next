@@ -1,0 +1,8 @@
+services:
+  marvel-app:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    container_name: marvel-container
+    ports:
+      - '3000:3000'
