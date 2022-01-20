@@ -51,7 +51,7 @@ type GetCharsResponse = {
 					name: string
 				}[]
 
-				returned: 1
+				returned: number
 			}
 			urls: {
 				type: string
